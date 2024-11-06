@@ -8,7 +8,8 @@ btnNext.addEventListener("click", () => {
   pos -= 90;
   cube.style.transform = `rotateY(${pos}deg)`;
 });
-btnPrev.addEventListener("click", () => {
-  pos += 90;
+
+for (let i = 0; i < 5; i++) {
+ pos += 90;
   cube.style.transform = `rotateY(${pos}deg)`;
-});
+}
